@@ -1,0 +1,62 @@
+/*
+ * Global filter styles 
+ */
+
+/* Filter style */
+.filters {
+    position: relative;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    height: 70px;
+    width: 100%;
+}
+
+/* Button styles */
+.filters button {
+    border: none;
+    border-radius: 4px;
+    background-color: #ff5a5f;
+    color: #fff;
+    font-size: 18px;
+    height: 48px;
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translate(-30px, -50%);
+    width: 20%;
+}
+
+/* button hove style */
+.filters button:hover {
+    opacity: 90%;
+}
+
+/* filter styles */
+.filters .locations,
+.filters .amenities {
+    display: inline-flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    margin-left: 30px;
+    width: 25%;
+}
+
+/* filters location border style */
+.filters .locations{
+    border-right: 1px solid #ddd;
+}
+
+/* filters heading 3 style */
+.filters h3 {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/* filters heading 2 style */
+.filters h4 {
+    font-weight: 400;
+    font-size: 14px;
+    top: 50%;
+}

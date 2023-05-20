@@ -11,6 +11,7 @@
     width: 100%;
 }
 
+/* Button styles */
 .filters button {
     border: none;
     border-radius: 4px;
@@ -23,6 +24,7 @@
     float: right;
 }
 
+/* button hove style */
 .filters button:hover {
     opacity: 90%;
 }
