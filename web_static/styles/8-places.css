@@ -1,0 +1,115 @@
+/* 
+ * Places style
+ */
+
+/* places article stlye */
+.places article {
+    border: 1px solid #ff5a5f;
+    border-radius: 4px;
+    margin: 20px;
+    padding: 20px;
+    width: 390px;
+}
+
+/* places heading 1 style */
+.places h1 {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+/* places heading 2 style */
+.places h2 {
+    font-size: 30px;
+    font-weight: bold;
+    display: inline-block;
+    background-position-x: center;
+    margin-left: 20%;
+}
+
+/* articles container style */
+.places .articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    /* position: relative; */
+}
+
+/* price_by_night style */
+.places .price_by_night {
+    border: 4px solid #ff5a5f;
+    border-radius: 50%;
+    color: #ff5a5f;
+    display: inline-block;
+    font-size: 20px;
+    left: 15%;
+    line-height: 60px;
+    height: 60px;
+    position: relative;
+    min-width: 60px;
+
+}
+
+/* style for the containers of max_guest, number_bathrooms, number_rooms */
+.places .max_guest,
+.places .number_bathrooms,
+.places .number_rooms {
+    width: 100px;
+}
+
+/* style for the info of the apartment */
+.places .information {
+    display: flex;
+    height: 80px;
+    justify-content: space-around;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    flex-direction: row;
+    margin-top: 5px;
+    position: relative;
+}
+
+/* guest icon */
+.places .max_guest_img {
+    background-image: url("/images/icon_group.png");
+}
+
+/* room icon */
+.places .number_rooms_img {
+    background-image: url("/images/icon_bed.png");
+}
+
+/* bath icon */
+.places .number_bathrooms_img {
+    background-image: url("/images/icon_bath.png");
+    
+}
+
+/* style for bath, guest and room icon */
+.places .max_guest_img,
+.places .number_bathrooms_img,
+.places .number_rooms_img {
+    background-repeat: no-repeat;
+    background-position: 20%;
+    height:40px;
+    margin: 10% auto 5% auto;
+    width: 50px;
+}
+
+/* user text style */
+.places .user {
+    margin: 10px 0;
+    text-align: left;
+}
+
+/* description text style */
+.places .description {
+    display: flex;
+    text-align: left;
+}
+
+/* style for strong text */
+strong {
+    font-weight: bold;
+}
