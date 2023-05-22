@@ -1,0 +1,375 @@
+/* 
+ * === Places style ===
+ * Responsiveness for devices with viewport 600px
+ * and below @ 218.
+ * Responsiveness for devices with viewport in the
+ * range (600 - 1000)px @ 308.
+ */
+
+/* places article stlye */
+.places article {
+    border: 1px solid #ff5a5f;
+    border-radius: 4px;
+    margin: 20px;
+    padding: 20px;
+    width: 390px;
+}
+
+/* places heading 1 style */
+.places h1 {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+    max-width: fit-content;
+}
+
+/* places heading 2 style */
+.places h2 {
+    align-self: center;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 40%;
+    text-align: center;
+}
+
+/* articles container style */
+.places .articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+/* name of apartment and pricing style */
+.places .title-price {
+    align-items: center;
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* price style */
+.places .price_by_night {
+    border: 4px solid #ff5a5f;
+    border-radius: 50%;
+    color: #ff5a5f;
+    font-size: 25px;
+    height: 60px;
+    line-height: 60px;
+    left: 0;
+    min-width: 60px;
+}
+
+/* style for the containers of max_guest, number_bathrooms, number_rooms */
+.places .max_guest,
+.places .number_bathrooms,
+.places .number_rooms {
+    width: 100px;
+}
+
+/* style for the info of the apartment */
+.places .information {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    height: 80px;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+
+/* guest icon */
+.places .max_guest_img {
+    background-image: url("/images/icon_group.png");
+}
+
+/* room icon */
+.places .number_rooms_img {
+    background-image: url("/images/icon_bed.png");
+}
+
+/* bath icon */
+.places .number_bathrooms_img {
+    background-image: url("/images/icon_bath.png");
+}
+
+/* style for bath, guest and room icon */
+.places .max_guest_img,
+.places .number_bathrooms_img,
+.places .number_rooms_img {
+    background-repeat: no-repeat;
+    height:50px;
+    margin: 5% auto;
+    width: 50px;
+}
+
+/* user text style */
+.places .user {
+    margin: 10px 0;
+    text-align: left;
+}
+
+/* description text style */
+.places .description {
+    display: flex;
+    text-align: left;
+}
+
+/* strong text style */
+strong {
+    font-weight: bold;
+}
+
+/* 
+ * Amenities styles
+ */
+
+/* Amenities component style */
+.places .amenities {
+    margin-top: 40px;
+}
+
+/* amenities and reviews heading style */
+.places .amenities h2,
+.places .reviews h2 {
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+    margin-bottom: 15px;
+    max-width: 100%;
+    width: 100%;
+    padding-bottom: 10px;
+    text-align: left;
+    padding-left: 0;
+}
+
+/* internet image */
+.places .amenities .wifi_img {
+    background-image: url("/images/icon_wifi.png");
+}
+
+/* tv image */
+.places .amenities .tv_img {
+    background-image: url("/images/icon_tv.png");
+}
+
+/* pet friendly image */
+.places .amenities .pet_img {
+    background-image: url("/images/icon_pets.png");
+}
+
+/* pool image */
+.places .amenities .pool_img {
+    background-image: url("/images/icon_pool.png");
+}
+
+/* amenity list container style */
+.places .amenities .wifi,
+.places .amenities .tv,
+.places .amenities .pet,
+.places .amenities .pool {
+    display: flex;
+    width: 100%;
+    justify-content: left;
+    margin-bottom: 10px;
+}
+
+/* image styles */
+.places .amenities .wifi_img,
+.places .amenities .tv_img,
+.places .amenities .pet_img,
+.places .amenities .pool_img {
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 20px;
+    width: 20px;
+}
+
+/* amenities list style */
+.places .amenities li {
+    margin: auto 0 auto 10px;
+    padding-top: 3px;
+}
+
+/* 
+ * ==== Review styles ===
+ */
+
+/* Review section style */
+.places .reviews {
+    margin-top: 40px;
+}
+
+/* review heading 3 style */
+.places .reviews h3 {
+    font-weight: 600;
+    margin-bottom: 3px;
+    text-align: left;
+}
+
+/* review paragraph style */
+.places .reviews p {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 600px){
+    header {
+        background-position: 10px;
+        height: 50px;
+        background-size: contain;
+    }
+
+    .filters {
+        height: 40px;
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .filters button {
+        font-size: 10px;
+        height: 30px;
+        right: 15px;
+        transform: translate(0, -50%);
+    }
+
+    .filters h3 {
+        font-weight: 500;
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    
+    .filters h4 {
+        display: none;
+    }
+
+    .filters .locations:hover .popover,
+    .filters .amenities:hover .popover {
+        display: none;
+    }
+
+    .places h1 {
+        font-size: 20px;
+        padding-left: 40px;
+        padding-bottom: 0;
+    }
+    
+    .places article {
+        margin: 10px;
+        padding: 10px;
+        width: 320px;
+    }
+
+    .places .articles h2 {
+        font-size: 20px;
+        padding-left: 35%;
+    }
+
+    .places .price_by_night {
+        border: 3px solid #ff5a5f;
+        font-size: 20px;
+        height: 50px;
+        line-height: 50px;
+        min-width: 50px;
+    }
+
+    .places .information {
+        height: 60px;
+    }
+
+    .places .max_guest_img,
+    .places .number_bathrooms_img,
+    .places .number_rooms_img {
+        background-size: contain;
+        height:30px;
+        margin: 5% auto;
+        width: 30px;
+    }
+
+    .places .amenities h2,
+    .places .reviews h2 {
+        font-size: 16px;
+        padding-bottom: 5px;
+        padding-left: 0;
+    }
+
+    .places .amenities,
+    .places .reviews {
+        margin-top: 20px;
+    }
+
+    footer {
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 600px) {
+    header {
+        width: 100%;
+        height: 60px;
+        background-size: contain;
+    }
+
+    .filters {
+        height: 50px;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .filters button {
+        font-size: 10px;
+        height: 35px;
+        right: 15px;
+        top: 50%;
+        transform: translate(0, -50%);
+    }
+
+    .filters h3 {
+        font-weight: 600;
+        font-size: 16px;
+        margin-left: 15px;
+    }
+    
+    .filters h4 {
+        font-weight: 400;
+        font-size: 14px;
+        margin-left: 15px;
+        width: 100%;
+    }
+
+    .places h1 {
+        font-size: 25px;
+        margin-left: 45px;
+        padding-bottom: 0;
+    }
+
+    .places article {
+        margin: 10px;
+        padding: 10px;
+        width: 500px;
+    }
+
+    .places .information {
+        height: 70px;
+    }
+
+    .places .max_guest_img,
+    .places .number_bathrooms_img,
+    .places .number_rooms_img {
+        background-size: contain;
+        height:40px;
+        margin: 5% auto 0 auto;
+        width: 40px;
+    }
+
+    .places .amenities,
+    .places .reviews {
+        margin-top: 20px;
+    }
+
+    footer {
+        height: 50px;
+    }
+}
