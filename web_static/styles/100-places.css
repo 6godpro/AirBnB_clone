@@ -1,0 +1,216 @@
+/* 
+ * Places style
+ */
+
+/* places article stlye */
+
+.container {
+    margin-bottom: 60px;
+}
+.places article {
+    border: 1px solid #ff5a5f;
+    border-radius: 4px;
+    margin: 20px;
+    padding: 20px;
+    width: 390px;
+}
+
+/* places heading 1 style */
+.places h1 {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+/* places heading 2 style */
+.places h2 {
+    font-size: 30px;
+    font-weight: bold;
+    display: inline-block;
+    background-position-x: center;
+    margin-left: 20%;
+}
+
+/* articles container style */
+.places .articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    /* position: relative; */
+}
+
+/* price_by_night style */
+.places .price_by_night {
+    border: 4px solid #ff5a5f;
+    border-radius: 50%;
+    color: #ff5a5f;
+    display: inline-block;
+    font-size: 25px;
+    height: 60px;
+    justify-content: center;
+    line-height: 60px;
+    left: 50px;
+    min-width: 60px;
+    position: relative;
+}
+
+/* style for the containers of max_guest, number_bathrooms, number_rooms */
+.places .max_guest,
+.places .number_bathrooms,
+.places .number_rooms {
+    width: 100px;
+}
+
+/* style for the info of the apartment */
+.places .information {
+    display: flex;
+    height: 80px;
+    justify-content: space-around;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin-top: 5px;
+}
+
+/* guest icon */
+.places .max_guest_img {
+    background-image: url("/images/icon_group.png");
+}
+
+/* room icon */
+.places .number_rooms_img {
+    background-image: url("/images/icon_bed.png");
+}
+
+/* bath icon */
+.places .number_bathrooms_img {
+    background-image: url("/images/icon_bath.png");
+}
+
+/* style for bath, guest and room icon */
+.places .max_guest_img,
+.places .number_bathrooms_img,
+.places .number_rooms_img {
+    background-repeat: no-repeat;
+    height:50px;
+    margin: 5% auto;
+    width: 50px;
+}
+
+/* user text style */
+.places .user {
+    margin: 10px 0;
+    text-align: left;
+}
+
+/* description text style */
+.places .description {
+    display: flex;
+    text-align: left;
+}
+
+/* strong text style */
+strong {
+    font-weight: bold;
+}
+
+/* 
+ * Amenities styles
+ */
+
+/* Amenities component style */
+.places .amenities {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 40px;
+}
+
+/* amenities and reviews heading style */
+.places .amenities h2,
+.places .reviews h2 {
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+    margin-left: 0;
+    margin-bottom: 15px;
+    width: 100%;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+/* internet image */
+.places .amenities .wifi_img {
+    background-image: url("/images/icon_wifi.png");
+}
+
+/* tv image */
+.places .amenities .tv_img {
+    background-image: url("/images/icon_tv.png");
+}
+
+/* pet friendly image */
+.places .amenities .pet_img {
+    background-image: url("/images/icon_pets.png");
+}
+
+/* pool image */
+.places .amenities .pool_img {
+    background-image: url("/images/icon_pool.png");
+}
+
+/* amenity list container style */
+.places .amenities .wifi,
+.places .amenities .tv,
+.places .amenities .pet,
+.places .amenities .pool {
+    display: flex;
+    width: 100%;
+    justify-content: left;
+    margin-bottom: 10px;
+}
+
+/* image styles */
+.places .amenities .wifi_img,
+.places .amenities .tv_img,
+.places .amenities .pet_img,
+.places .amenities .pool_img {
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 20px;
+    width: 20px;
+    margin: auto 0;
+}
+
+/* amenities list style */
+.places .amenities li {
+    list-style: none;
+    margin: auto 0 auto 10px;
+    padding-top: 3px;
+}
+
+/* Review section style */
+.places .reviews {
+    margin-top: 40px;
+}
+
+/* review heading 2 style */
+.places .reviews h2 {
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+    margin-left: 0;
+    text-align: left;
+    width: 100%;
+}
+
+/* review heading 3 style */
+.places .reviews h3 {
+    font-weight: 600;
+    margin-bottom: 3px;
+    text-align: left;
+}
+
+/* review paragraph style */
+.places .reviews p {
+    text-align: left;
+    margin-bottom: 10px;
+}
