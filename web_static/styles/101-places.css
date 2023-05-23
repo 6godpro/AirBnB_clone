@@ -4,6 +4,10 @@
 
 /* places article stlye */
 
+footer {
+    bottom: auto;
+}
+
 .container {
     margin-bottom: 60px;
 }

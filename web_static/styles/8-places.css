@@ -2,6 +2,11 @@
  * Places style
  */
 
+
+footer {
+    bottom: auto;
+}
+
 /* places article stlye */
 .places article {
     border: 1px solid #ff5a5f;
